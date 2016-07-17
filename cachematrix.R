@@ -1,4 +1,4 @@
-## Together, these two functions find the 
+## Together, these two functions find the
 ## inverse of a matrix and caches the result.
 
 ## makeCacheMatrix takes an matrix and returns a list of functions to set or get
@@ -19,7 +19,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Given the list provided by makeCacheMatrix, cacheSolve provides the inverse
+## of the matrix. If the inverse has already been calculated, it pulls the
+## solved matrix from cache.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
